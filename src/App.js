@@ -24,15 +24,15 @@ function App() {
             const canvas = canvasRef.current;
             const ctx = canvas.getContext("2d");
 
-            let fontSize = name.length > 15 ? "22pt" : "30pt"; //adjusts font size
+            let fontSize = name.length > 14 ? "22pt" : "30pt"; //adjusts font size
 
             imageObj.onload = function () {
                 ctx.drawImage(imageObj, 0, 0);
                 ctx.font = `${fontSize} AlataRegular`;
-                ctx.fillStyle = "rgb(130,26,168)";
+                ctx.fillStyle = "white";
                 ctx.textBaseline = 'middle';
                 ctx.textAlign = "center";
-                ctx.fillText(name, (canvas.width / 2) - 3, 155);
+                ctx.fillText(name, (canvas.width / 2) - 3, 175);
             };
             imageObj.src = "DMC_badge.png";
         }
