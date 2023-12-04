@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It will generate a name on top of the image and you can also mint the image as an NFT. 
 
+This project works by having users enter in their name. Their name is then incorporated into the image, which can then be minted onto the Sepolia Testnet as an NFT. 
+
 In **contractInstance.js**, be sure to change the contract address once deployed. 
 **NFTStorageService.js** has the API key to NFT.Storage.
 
