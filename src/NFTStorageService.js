@@ -1,7 +1,7 @@
 import { NFTStorage, File } from 'nft.storage';
 
 // Replace this with your API key from NFT.Storage
-const NFT_STORAGE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDkxY2VBZjVmMkU0MGZlNzQzNzgyN0YyNUE5MmRiQzRGRjVEMTRDRjgiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY5ODgwODY0ODE4MywibmFtZSI6ImN1c3RvbWltZ2dlbiJ9.i7S_GiFzor84XRy6THCNfIE-ryMeo_9-ZVoShp5YpP4';
+const NFT_STORAGE_KEY = 'YOUR_API_KEY';
 
 const nftstorage = new NFTStorage({ token: NFT_STORAGE_KEY });
 
